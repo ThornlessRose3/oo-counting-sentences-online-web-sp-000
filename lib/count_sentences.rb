@@ -17,8 +17,8 @@ class String
   def count_sentences
     int = 0
     if self.sentence? || self.question? || self.exclamation?
-      pry
       self.split(. )
+      pry
       int = self.count
     end
     return int
