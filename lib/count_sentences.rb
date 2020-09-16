@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     int = 0
+    test_arr = ""
     self = test_arr
     if test_arr.include?(/[!.?]/)
       test_arr.split(/[.?!]\s/)
