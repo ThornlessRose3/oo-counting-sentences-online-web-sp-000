@@ -21,4 +21,5 @@ class String
       self.count
     end
     return int
+  end
 end
