@@ -18,7 +18,7 @@ class String
     int = 0
     if self.include?(/[!.?]/)
       self.split(/[.?!]\s/)
-      self.count
+      int = self.count
     end
     return int
   end
