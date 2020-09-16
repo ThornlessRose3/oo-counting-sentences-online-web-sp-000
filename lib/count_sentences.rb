@@ -18,8 +18,7 @@ class String
     int = 0
     if self.sentence? || self.question? || self.exclamation?
       pry
-      int = self.split(' ')
-      int = self.count
+      int = self.split(' ').count
     end
     return int
   end
