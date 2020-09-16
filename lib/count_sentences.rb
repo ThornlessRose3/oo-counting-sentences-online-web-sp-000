@@ -18,7 +18,7 @@ class String
     int = 0
     if self.sentence? || self.question? || self.exclamation?
       pry
-      self.split(/[.?!]\s/)
+      self.split(. )
       int = self.count
     end
     return int
